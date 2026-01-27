@@ -41,7 +41,7 @@ menu:
 params:
   description: "FightingYK"
   footer: "&copy; FightingYK | [Github](https://github.com/DrizzlingCattus)"
-  faviconVersion: "v2"
+  faviconVersion: "v3"
 
 markup:
   highlight:
