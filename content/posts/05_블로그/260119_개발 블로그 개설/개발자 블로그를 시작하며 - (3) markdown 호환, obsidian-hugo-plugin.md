@@ -9,7 +9,7 @@ tags:
   - publish-blog
 title: 개발자 블로그를 시작하며 - (3) markdown 호환, obsidian-hugo-plugin
 date: 2026-02-02T13:54:32.212Z
-lastmod: 2026-02-02T15:08:07.605Z
+lastmod: 2026-02-02T15:29:03.349Z
 ---
 # 지난 이야기
 
@@ -133,3 +133,5 @@ Obisidan의 Wikilink를 Hugo의 내부 링크 기능인 `ref` shortcode로 변�
 (그림5. 이미지도 안깨지고, 링크 alias도 잘 적용되는 모습이다.)
 
 오늘은 여기까지. 다음은 Hugo로 Github Page로 배포하는 방법에 대해서 소개해볼까? 하는데, 이미 도처에 관련 정보는 많으니.. 아예 다른 주제로 들고올까 한다.
+
++) [mdast의 실체](/mdast%20-%20%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%20%EA%B5%AC%EB%AC%B8%20%EB%B6%84%EC%84%9D%20%EB%AA%85%EC%84%B8%20&%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC)는 실은 Markdown 명세를 기술한 프로젝트다. 이 명세를 참고하여 마크다운 파싱/직렬화([mdast-util-from-markdown](https://github.com/syntax-tree/mdast-util-from-markdown), [mdast-util-to-markdown](https://github.com/syntax-tree/mdast-util-to-markdown)) 라이브러리를 구현하고 있다.
