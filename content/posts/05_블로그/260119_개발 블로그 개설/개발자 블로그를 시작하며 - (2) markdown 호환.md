@@ -9,7 +9,7 @@ tags:
   - publish-blog
 title: 개발자 블로그를 시작하며 - (2) markdown 호환
 date: 2026-01-21T14:37:39.101Z
-lastmod: 2026-01-25T16:37:18.997Z
+lastmod: 2026-02-02T14:07:33.909Z
 ---
 # 지난 이야기
 
@@ -66,5 +66,7 @@ Wikilink는 파일경로를 입력하는 모든 문법을 대괄호만 사용해
 
 ![Pasted image 20260126005810.png](/Resources/Resources/Pasted%20image%2020260126005810.png)\
 (그림 1. Obsidian 설정 > File And Link에서 wikilink 형식을 사용할지 결정할 수 있다.)
+
+# 마무리
 
 이번주는 여기까지, 다음 글은 'Obsidian Hugo Publish 적용과 기능 확장'에 대한 내용을 작성해보자.
