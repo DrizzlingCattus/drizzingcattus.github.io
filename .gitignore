@@ -1,4 +1,6 @@
 public/
+resources/
 tags
 tags.lock
 .hugo_build.lock
+.DS_Store
