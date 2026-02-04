@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon 추가 -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico?v={{ .Site.Params.faviconVersion }}">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v={{ .Site.Params.faviconVersion }}">
 
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
   </head>
 
@@ -17,7 +18,8 @@
     <nav>
     <ul class="menu">
       <li>
-	<a href="/">
+	<a href="/" class="logo-title-link">
+	  <img src="/logo.svg" class="site-logo" alt="Logo" />
 	  {{ (site.Params.label.text | default site.Title) }}
 	</a>
       </li>
